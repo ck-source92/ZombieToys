@@ -792,6 +792,7 @@ GameObject:
   - component: {fileID: 456160}
   - component: {fileID: 3392648}
   - component: {fileID: 2304196}
+  - component: {fileID: 15895238655930511}
   m_Layer: 10
   m_Name: Blox (10)
   m_TagString: Untagged
@@ -864,6 +865,39 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!215 &15895238655930511
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111124}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 0
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 10, y: 3.7176695, z: 10}
+  m_BoxOffset: {x: 0, y: -0.04079461, z: 0}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 1
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!1 &112882
 GameObject:
   m_ObjectHideFlags: 0
@@ -3332,6 +3366,7 @@ GameObject:
   - component: {fileID: 3385010}
   - component: {fileID: 2388990}
   - component: {fileID: 9581464}
+  - component: {fileID: 1707491794658299980}
   m_Layer: 10
   m_Name: Stool
   m_TagString: Untagged
@@ -3429,6 +3464,39 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!215 &1707491794658299980
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154770}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 0
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 10, y: 6.790429, z: 10}
+  m_BoxOffset: {x: 0, y: 3.0163321, z: 0}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 1
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!1 &156218
 GameObject:
   m_ObjectHideFlags: 0
@@ -6014,6 +6082,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 466156}
+  - component: {fileID: 980747407}
   m_Layer: 10
   m_Name: Environment
   m_TagString: Untagged
@@ -6053,6 +6122,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!220 &980747407
+LightProbeGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192228}
+  m_Enabled: 1
+  m_SourcePositions:
+  - {x: 1, y: 3.2011428, z: 20.798508}
+  - {x: 18.079454, y: 2.7336178, z: -11.491663}
+  - {x: 18.044277, y: -0.6021204, z: -11.413748}
+  - {x: 4.122841, y: -1, z: -17.446957}
+  - {x: -26.095482, y: 1, z: 1.7815202}
+  - {x: -14.339886, y: 2.541739, z: -14.140488}
+  - {x: -0.3628292, y: -0.697953, z: 21.465729}
+  - {x: -14.844593, y: -0.6145654, z: -14.84459}
+  - {x: 14.703601, y: 0, z: 12.534218}
+  - {x: -19.524456, y: 0, z: -6.7491946}
+  - {x: 4.0219107, y: 2.1319547, z: -17.015965}
+  m_Dering: 1
 --- !u!1 &192436
 GameObject:
   m_ObjectHideFlags: 0
@@ -6192,6 +6282,7 @@ GameObject:
   - component: {fileID: 433318}
   - component: {fileID: 3379358}
   - component: {fileID: 2392972}
+  - component: {fileID: 7915454539867399654}
   m_Layer: 10
   m_Name: Robot
   m_TagString: Untagged
@@ -6270,3 +6361,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!215 &7915454539867399654
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195998}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 0
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 10.9837, y: 2.7417033, z: 9.057287}
+  m_BoxOffset: {x: -0.12296295, y: 0.6940373, z: -0.51234365}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 1
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
