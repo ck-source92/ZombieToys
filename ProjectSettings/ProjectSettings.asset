@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
-  productGUID: a31ab5fcbaa78a2448c656e79bab6270
+  productGUID: 983f399b5a9eef6408e1b1be19b881b5
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -239,7 +239,7 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
-  clonedFromGUID: de73f0b880ce34266a31d540c7121805
+  clonedFromGUID: ab266c66aaeb54c87ba48162786231f3
   templatePackageId: 
   templateDefaultScene: 
   useCustomMainManifest: 0
@@ -710,7 +710,6 @@ PlayerSettings:
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1
-    tvOS: 1
   scriptingBackend:
     Android: 0
     Standalone: 0
@@ -718,12 +717,10 @@ PlayerSettings:
     WebGL: 1
     Windows Store Apps: 2
     iPhone: 0
-    tvOS: 1
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild:
     iPhone: 0
-    tvOS: 0
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
