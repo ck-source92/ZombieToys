@@ -384,6 +384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boy
       objectReference: {fileID: 0}
+    - target: {fileID: 159818, guid: 3a6182fe56bc9c54993c539ddec7be04, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 484106, guid: 3a6182fe56bc9c54993c539ddec7be04, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -434,7 +438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11418946, guid: 3a6182fe56bc9c54993c539ddec7be04, type: 3}
       propertyPath: numberOfAttacks
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11461848, guid: 3a6182fe56bc9c54993c539ddec7be04, type: 3}
       propertyPath: lightningHit
@@ -445,6 +449,14 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 19812418, guid: 3a6182fe56bc9c54993c539ddec7be04, type: 3}
+      propertyPath: InitialModule.startRotationY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19826720, guid: 3a6182fe56bc9c54993c539ddec7be04, type: 3}
+      propertyPath: InitialModule.startRotationX.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19826720, guid: 3a6182fe56bc9c54993c539ddec7be04, type: 3}
       propertyPath: InitialModule.startRotationY.minMaxState
       value: 3
       objectReference: {fileID: 0}
