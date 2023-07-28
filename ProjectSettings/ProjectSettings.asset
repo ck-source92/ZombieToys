@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 23
-  productGUID: 0737e26dc75ce214391101fcc31149a8
+  productGUID: a0bd40edbd6cd314b85e4b7188100596
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -239,7 +239,7 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
-  clonedFromGUID: 9483b359db37e4d6ead2d929f7b1a078
+  clonedFromGUID: a35031341bd154cc8b0691013fa24f5a
   templatePackageId: 
   templateDefaultScene: 
   useCustomMainManifest: 0
@@ -798,8 +798,7 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled:
-    UNet: 1
+  cloudServicesEnabled: {}
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
